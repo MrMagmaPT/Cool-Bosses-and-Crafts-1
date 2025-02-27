@@ -1,7 +1,6 @@
-<img align="left" src="pack.png" alt="logo" width="400" style="border-radius: 25px;margin-right: 40px">
+<img align="center" src="pack.png" alt="logo" width="400" style="border-radius: 25px">
 
 # Cool Bosses & Crafts
-
 [![Static Badge](https://img.shields.io/badge/Modrinth-MrMagmaPT-brightgreen?style=flat&logo=modrinth&logoColor=%2300AF5C&color=%2300AF5C)](https://modrinth.com/user/MrMagmaPT) [![Static Badge](https://img.shields.io/badge/Modrinth-CBC1-brightred?style=flat&logo=modrinth&logoColor=%2300AF5C&color=%2300AF5C)](https://modrinth.com/datapack/cbc1_datapack)
 
 
@@ -10,8 +9,7 @@
 
  ---
 ## Introduction
-
-**Cool Bosses & Crafts I**, or `CBC1` for short is a DataPack focused in adding to the base game some new things and changing others, bellow is a list with what is implemented what im working on and what is thought for the future:
+Cool Bosses & Crafts I, or `CBC1` for short is a DataPack focused in adding to the base game some new things and changing others, bellow is a list with what is implemented what im working on and what is thought for the future:
 
  ---
 ### Content
