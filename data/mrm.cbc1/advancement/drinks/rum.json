@@ -1,0 +1,44 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:bowl",
+        "components": {
+          "minecraft:custom_model_data": {"floats": [5107]}
+        }
+      },
+      "title": {
+        "text": "Rum",
+        "color": "light_purple"
+      },
+      "description": {
+        "text": "Get the pirate's Drink, RUM!",
+        "color": "#00ff00"
+      },
+      "background": "minecraft:textures/block/cauldron_side.png",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "mrm.cbc1:drinks/root",
+    "criteria": {
+      "got_disc_11": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:bowl"
+              ],
+              "components": {
+                "minecraft:custom_model_data": {"floats": [5107]}
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }
+  

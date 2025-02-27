@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cdc1_utility",
+  "pattern": [
+    "   ",
+    " A ",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "minecraft:amethyst_cluster",
+    "count": 1
+  }
+}

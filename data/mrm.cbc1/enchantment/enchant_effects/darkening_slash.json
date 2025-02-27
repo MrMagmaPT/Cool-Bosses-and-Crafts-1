@@ -1,0 +1,61 @@
+{
+	"description": "Darkening Slash",
+	"exclusive_set": [
+	  "mrm.cbc1:enchant_effects/holly_strike",
+	  "mrm.cbc1:enchant_effects/nauseating_cut",
+	  "mrm.cbc1:enchant_effects/poison_slash",
+	  "mrm.cbc1:enchant_effects/slowing_hit",
+	  "mrm.cbc1:enchant_effects/spirit_breaker",
+	  "mrm.cbc1:enchant_effects/weakening_strike",
+	  "mrm.cbc1:enchant_effects/whithering_slash"
+	],
+	"supported_items": "#minecraft:swords",
+	"primary_items": "#minecraft:swords",
+	"weight": 1,
+	"max_level": 3,
+	"min_cost": {
+	  "base": 5,
+	  "per_level_above_first": 2
+	},
+	"max_cost": {
+	  "base": 5,
+	  "per_level_above_first": 2
+	},
+	"anvil_cost": 2,
+	"slots": [
+	  "mainhand"
+	],
+	"effects": {
+	  "minecraft:post_attack": [
+		{
+		  "enchanted": "attacker",
+		  "affected": "victim",
+		  "effect": {
+			"type": "minecraft:apply_mob_effect",
+			"to_apply": "minecraft:darkness",
+			"min_duration": {
+			  "type": "minecraft:linear",
+			  "base": 20,
+			  "per_level_above_first": 10
+			},
+			"max_duration": {
+			  "type": "minecraft:linear",
+			  "base": 20,
+			  "per_level_above_first": 10
+			},
+			"min_amplifier": {
+			  "type": "minecraft:linear",
+			  "base": 0,
+			  "per_level_above_first": 1
+			},
+			"max_amplifier": {
+			  "type": "minecraft:linear",
+			  "base": 0,
+			  "per_level_above_first": 1
+			}
+		  }
+		}
+	  ]
+	}
+  }
+  

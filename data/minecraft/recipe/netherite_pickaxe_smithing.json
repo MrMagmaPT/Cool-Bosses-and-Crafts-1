@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    " U ",
+    " D "
+  ],
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "D": "minecraft:diamond_pickaxe",
+    "U": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "result": {
+    "id": "minecraft:netherite_pickaxe",
+    "count": 1
+  }
+}

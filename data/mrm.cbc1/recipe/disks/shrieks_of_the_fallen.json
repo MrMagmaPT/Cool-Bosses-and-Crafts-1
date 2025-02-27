@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "cdc1_discs",
+  "pattern": [
+    "ABA",
+    "BDB",
+    "ABA"
+  ],
+  "key": {
+    "A": "minecraft:sculk",
+    "B": "minecraft:sculk_shrieker",
+    "D": "minecraft:music_disc_11"
+  },
+  "result": {
+    "id": "minecraft:music_disc_11",
+    "count": 1,
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:item_name": "{\"color\":\"gold\",\"text\":\"Music Disc\"}",
+      "minecraft:custom_model_data": {"floats": [5206]},
+      "minecraft:jukebox_playable": {
+        "song": "mrm.cbc1:shrieks_of_the_fallen",
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

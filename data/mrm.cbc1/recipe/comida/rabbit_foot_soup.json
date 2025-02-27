@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cdc1_food",
+  "pattern": [
+    " R ",
+    "RRR",
+    " B "
+  ],
+  "key": {
+    "R": "minecraft:rabbit_foot",
+    "B": "minecraft:rabbit_stew"
+  },
+  "result": 
+  {
+    "id": "minecraft:bowl",
+    "count": 1,
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:item_name": "{\"color\":\"light_purple\",\"text\":\"Rabbit Foot Soup\"}",
+      "minecraft:custom_model_data": {"floats": [5104]},
+      "minecraft:food": {
+        "nutrition": 10,
+        "saturation": 5,
+        "can_always_eat": false
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1,
+        "animation": "eat",
+        "sound": "minecraft:entity.generic.drink",
+        "has_consume_particles": true,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:jump_boost",
+                "amplifier": 3,
+                "duration": 600,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": false
+              }
+            ],
+            "probability": 1
+          }
+        ]
+      },
+      "minecraft:use_remainder": {
+        "id": "minecraft:bowl",
+        "count": 1
+      }
+    }
+  }
+}

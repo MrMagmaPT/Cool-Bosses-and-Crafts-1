@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "D U",
+    "N N"
+  ],
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "D": "minecraft:diamond_leggings",
+    "U": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "result": {
+    "id": "minecraft:netherite_leggings",
+    "count": 1
+  }
+}

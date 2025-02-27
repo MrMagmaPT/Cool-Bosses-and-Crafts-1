@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " NN",
+    " UN",
+    " D "
+  ],
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "D": "minecraft:diamond_axe",
+    "U": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "result": {
+    "id": "minecraft:netherite_axe",
+    "count": 1
+  }
+}

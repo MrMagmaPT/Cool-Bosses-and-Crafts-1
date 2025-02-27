@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "cdc1_discs",
+  "pattern": [
+    "ABC",
+    "EDE",
+    "CBA"
+  ],
+  "key": {
+    "A": "minecraft:netherrack",
+    "B": "minecraft:nether_bricks",
+    "D": "minecraft:music_disc_11",
+    "C": "minecraft:nether_wart",
+    "E": "minecraft:netherite_scrap"
+  },
+  "result": {
+    "id": "minecraft:music_disc_11",
+    "count": 1,
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:item_name": "{\"color\":\"gold\",\"text\":\"Music Disc\"}",
+      "minecraft:custom_model_data": {"floats": [5207]},
+      "minecraft:jukebox_playable": {
+        "song": "mrm.cbc1:fallen_shadows",
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

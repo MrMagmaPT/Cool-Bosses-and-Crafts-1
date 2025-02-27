@@ -1,0 +1,122 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_11",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "text": "Got em all",
+      "color": "#ff0000"
+    },
+    "description": {
+      "text": "Gather all the new 11 discs.",
+      "color": "#ff0000"
+    },
+    "background": "minecraft:textures/block/note_block.png",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "mrm.cbc1:discs/disc_11",
+  "criteria": {
+    "got_disc_11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11",
+            "components": {
+              "minecraft:custom_model_data": {"floats": [5200]}
+            }
+          },
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {"floats": [5201]}
+            }
+          },
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {"floats": [5202]}
+            }
+          },
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {"floats": [5203]}
+            }
+          },
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {"floats": [5204]}
+            }
+          },
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {"floats": [5205]}
+            }
+          },
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {"floats": [5206]}
+            }
+          },
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {"floats": [5207]}
+            }
+          },
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {"floats": [5208]}
+            }
+          },
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {"floats": [5209]}
+            }
+          },
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {"floats": [5210]}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

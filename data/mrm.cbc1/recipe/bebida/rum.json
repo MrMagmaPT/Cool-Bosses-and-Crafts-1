@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cdc1_drinks",
+  "key": {
+    "P": "minecraft:sugar_cane",
+    "F": "minecraft:fermented_spider_eye",
+    "S": "minecraft:sugar",
+    "B": "minecraft:glass_bottle"
+  },
+  "pattern": [
+    "PPP",
+    "PFS",
+    " B "
+  ],
+  "result": {
+    "id": "minecraft:bowl",
+    "count": 1,
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:item_name": "{\"color\":\"light_purple\",\"text\":\"Rum\"}",
+      "minecraft:custom_model_data": {"floats": [5107]},
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 10,
+        "can_always_eat": true
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1,
+        "animation": "eat",
+        "sound": "minecraft:entity.generic.drink",
+        "has_consume_particles": true,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:speed",
+                "amplifier": 2,
+                "duration": 200,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": false
+              }
+            ],
+            "probability": 1
+          },
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:nausea",
+                "amplifier": 2,
+                "duration": 400,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": false
+              }
+            ],
+            "probability": 1
+          }
+        ]
+      },
+      "minecraft:use_remainder": {
+        "id": "minecraft:glass_bottle",
+        "count": 1
+      }
+    }
+  }
+}

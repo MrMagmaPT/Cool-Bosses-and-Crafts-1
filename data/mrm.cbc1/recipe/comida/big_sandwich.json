@@ -1,0 +1,87 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "cdc1_food",
+    "pattern": [
+      "SCB",
+      "DAC",
+      "BDS"
+    ],
+    "key": {
+      "S": "minecraft:cooked_beef",
+      "C": "minecraft:carrot",
+      "B": "minecraft:bread",
+      "D": "minecraft:dried_kelp",
+      "A": "minecraft:enchanted_golden_apple"
+    },
+    "result": 
+    {
+      "id": "minecraft:bread",
+      "count": 1,
+      "components": {
+        "minecraft:max_stack_size": 64,
+        "minecraft:item_name": "{\"color\":\"gold\",\"text\":\"Big Sandwich\"}",
+        "minecraft:custom_model_data": {"floats": [5100]},
+        "minecraft:food": {
+          "nutrition": 20,
+          "saturation": 20,
+          "can_always_eat": false
+        },
+        "minecraft:consumable": {
+          "consume_seconds": 3,
+          "animation": "eat",
+          "sound": "minecraft:entity.generic.drink",
+          "has_consume_particles": true,
+          "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:instant_health",
+                "amplifier": 2,
+                "duration": 400,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": false
+              },
+              {
+                "id": "minecraft:darkness",
+                "amplifier": 2,
+                "duration": 400,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": false
+              },
+              {
+                "id": "minecraft:health_boost",
+                "amplifier": 2,
+                "duration": 400,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": false
+              },
+              {
+                "id": "minecraft:nausea",
+                "amplifier": 2,
+                "duration": 400,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": false
+              },
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 2,
+                "duration": 400,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": false
+              }
+            ],
+            "probability": 0.5
+          }
+        ]
+      }
+    }
+  }
+}
+  

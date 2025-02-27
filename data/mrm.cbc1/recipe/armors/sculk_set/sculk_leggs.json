@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:netherite_leggings",
+  "addition": "minecraft:calibrated_sculk_sensor",
+  "result": {
+    "id": "minecraft:netherite_leggings",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": {"floats": [5402]},
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "id": "attack_damage_legs",
+            "type": "minecraft:attack_damage",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "id": "armor_legs",
+            "type": "minecraft:armor",
+            "amount": 6,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "id": "armor_toughness_legs",
+            "type": "minecraft:armor_toughness",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "id": "knockback_res_legs",
+            "type": "minecraft:knockback_resistance",
+            "amount": 0.1,
+            "operation": "add_value",
+            "slot": "legs"
+          }
+        ],
+        "show_in_tooltip": true
+      },
+      "minecraft:item_name": "{\"color\":\"aqua\",\"text\":\"Sculk Leggings\"}"
+    }
+  }
+}

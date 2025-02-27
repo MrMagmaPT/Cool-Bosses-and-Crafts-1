@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "cbc1_enchants",
+    "pattern": [
+      "ABA",
+      "BEB",
+      "ABA"
+    ],
+    "key": {
+      "A": "minecraft:prismarine_crystals",
+      "B": "minecraft:sponge",
+      "E": "minecraft:writable_book"
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "mrm.cbc1:enchant_effects/weakening_strike": 1
+          },
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,44 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:carrot",
+        "components": {
+          "minecraft:custom_model_data": {"floats": [5103]}
+        }
+      },
+      "title": {
+        "text": "Crystal Carrot",
+        "color": "light_purple"
+      },
+      "description": {
+        "text": "Get The Crystal Carrot!",
+        "color": "#00ff00"
+      },
+      "background": "minecraft:textures/block/furnace_front.png",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "mrm.cbc1:food/root",
+    "criteria": {
+      "got_disc_11": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:carrot"
+              ],
+              "components": {
+                "minecraft:custom_model_data": {"floats": [5103]}
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }
+  

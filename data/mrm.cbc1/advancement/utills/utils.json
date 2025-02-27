@@ -1,0 +1,36 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+	  "has_crafting_table": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "items": [
+			{
+			  "items": "minecraft:crafting_table"
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "recipes": [
+		"mrm.cbc1:utility/amethyst_cluster",
+		"mrm.cbc1:utility/budding_amethyst",
+		"mrm.cbc1:utility/large_amethyst_bud",
+		"mrm.cbc1:utility/medium_amethyst_bud",
+		"mrm.cbc1:utility/raw_copper_block_blast",
+		"mrm.cbc1:utility/raw_gold_block_blast",
+		"mrm.cbc1:utility/raw_iron_block_blast",
+		"mrm.cbc1:utility/rotten_to_leather_blast",
+		"mrm.cbc1:utility/rotten_to_leather_furnace",
+		"mrm.cbc1:utility/rotten_to_leather_smoker",
+		"mrm.cbc1:utility/smal_amethyst_bud",
+		"mrm.cbc1:utility/totem",
+		"mrm.cbc1:utility/unpack_amethyst",
+		"mrm.cbc1:utility/unpack_blue_ice",
+		"mrm.cbc1:utility/unpack_compact_ice",
+		"mrm.cbc1:utility/unpack_wool"
+	  ]
+	}
+  }
+  

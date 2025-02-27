@@ -1,0 +1,44 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:bread",
+        "components": {
+          "minecraft:custom_model_data": {"floats": [5100]}
+        }
+      },
+      "title": {
+        "text": "Big Sandwich",
+        "color": "gold"
+      },
+      "description": {
+        "text": "Get The Big Sandwich!",
+        "color": "#00ff00"
+      },
+      "background": "minecraft:textures/block/furnace_front.png",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "mrm.cbc1:food/root",
+    "criteria": {
+      "got_disc_11": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:bread"
+              ],
+              "components": {
+                "minecraft:custom_model_data": {"floats": [5100]}
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }
+  

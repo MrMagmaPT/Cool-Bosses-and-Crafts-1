@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass_bottle",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "text": "Drinks",
+      "color": "#ffffff"
+    },
+    "description": {
+      "color": "#00ff00",
+      "text": "Get Some Glass Bootles"
+    },
+    "background": "minecraft:textures/block/cauldron_side.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "got_disc_11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass_bottle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "mrm.cbc1:bebida/whisky",
+      "mrm.cbc1:bebida/vodka",
+      "mrm.cbc1:bebida/rum"
+    ],
+    "experience": 10
+  }
+}

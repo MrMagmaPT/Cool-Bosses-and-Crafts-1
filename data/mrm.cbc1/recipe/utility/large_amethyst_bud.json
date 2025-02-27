@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cdc1_utility",
+  "pattern": [
+    "   ",
+    "   ",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "minecraft:large_amethyst_bud",
+    "count": 1
+  }
+}

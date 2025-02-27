@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smoking",
+    "category": "misc",
+    "group": "cdc1_utility",
+    "ingredient": "minecraft:rotten_flesh",
+    "result": {
+      "id": "minecraft:leather"
+    },
+    "experience": 2,
+    "cookingtime": 200
+  }
+  

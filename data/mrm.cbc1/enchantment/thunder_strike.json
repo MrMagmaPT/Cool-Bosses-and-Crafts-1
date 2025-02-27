@@ -1,0 +1,122 @@
+{
+	"description": "Thunder Strike",
+	"exclusive_set": "minecraft:fire_aspect",
+	"supported_items": "minecraft:mace",
+	"primary_items": "minecraft:mace",
+	"weight": 1,
+	"max_level": 3,
+	"min_cost": {
+	  "base": 5,
+	  "per_level_above_first": 5
+	},
+	"max_cost": {
+	  "base": 40,
+	  "per_level_above_first": 1
+	},
+	"anvil_cost": 10,
+	"slots": [
+	  "mainhand"
+	],
+	"effects": {
+	  "minecraft:post_attack": [
+		{
+		  "enchanted": "attacker",
+		  "affected": "victim",
+		  "effect": {
+			"type": "minecraft:run_function",
+			"function": "mrm.cbc1:thunderstrike_lvl3"
+		  },
+		  "requirements": {
+			"condition": "minecraft:entity_properties",
+			"entity": "attacker",
+			"predicate": {
+			  "slots": {
+				"weapon.mainhand": {
+				  "items": "minecraft:mace",
+				  "predicates": {
+					"minecraft:enchantments": [
+					  {
+						"enchantments": "mrm.cbc1:thunder_strike",
+						"levels": 3
+					  }
+					]
+				  }
+				}
+			  }
+			}
+		  }
+		},
+		{
+			"enchanted": "attacker",
+			"affected": "victim",
+			"effect": {
+			  "type": "minecraft:run_function",
+			  "function": "mrm.cbc1:thunderstrike_lvl2"
+			},
+			"requirements": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "attacker",
+			  "predicate": {
+				"slots": {
+				  "weapon.mainhand": {
+					"items": "minecraft:mace",
+					"predicates": {
+					  "minecraft:enchantments": [
+						{
+						  "enchantments": "mrm.cbc1:thunder_strike",
+						  "levels": 2
+						}
+					  ]
+					}
+				  }
+				}
+			  }
+			}
+		},
+		{
+			"enchanted": "attacker",
+			"affected": "victim",
+			"effect": {
+			  "type": "minecraft:run_function",
+			  "function": "mrm.cbc1:thunderstrike_lvl1"
+			},
+			"requirements": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "attacker",
+			  "predicate": {
+				"slots": {
+				  "weapon.mainhand": {
+					"items": "minecraft:mace",
+					"predicates": {
+					  "minecraft:enchantments": [
+						{
+						  "enchantments": "mrm.cbc1:thunder_strike",
+						  "levels": 1
+						}
+					  ]
+					}
+				  }
+				}
+			  }
+			}
+		}
+	  ],
+	  "minecraft:damage_immunity": [
+		{
+		  "effect": {},
+		  "requirements": {
+			"condition": "minecraft:damage_source_properties",
+			"predicate": {
+			  "tags": [
+				{
+				  "id": "minecraft:is_lightning",
+				  "expected": true
+				}
+			  ]
+			}
+		  }
+		}
+	  ]
+	}
+  }
+  

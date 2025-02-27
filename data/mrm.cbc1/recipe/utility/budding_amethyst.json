@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cdc1_utility",
+  "pattern": [
+    "ZXZ",
+    "XYX",
+    "ZXZ"
+  ],
+  "key": {
+    "Z": "minecraft:amethyst_shard",
+    "X": "minecraft:amethyst_block",
+    "Y": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "minecraft:budding_amethyst",
+    "count": 1
+  }
+}

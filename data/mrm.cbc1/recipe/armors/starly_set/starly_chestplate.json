@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:netherite_chestplate",
+  "addition": "minecraft:nether_star",
+  "result": {
+    "id": "minecraft:netherite_chestplate",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": {"floats": [5400]},
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "id": "max_health_chest",
+            "type": "minecraft:max_health",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "id": "armor_chest",
+            "type": "minecraft:armor",
+            "amount": 8,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "id": "armor_toughness_chest",
+            "type": "minecraft:armor_toughness",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "id": "knockback_res_chest",
+            "type": "minecraft:knockback_resistance",
+            "amount": 0.1,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+        ],
+        "show_in_tooltip": true
+      },
+      "minecraft:item_name": "{\"color\":\"aqua\",\"text\":\"Starly Chestplate\"}",
+      "minecraft:equippable": {
+        "slot": "chest",
+        "equip_sound": "minecraft:item.armor.equip_chain",
+        "camera_overlay": "cbc1:entity/equipment/humanoid/starly"
+      }
+    }
+  }
+}

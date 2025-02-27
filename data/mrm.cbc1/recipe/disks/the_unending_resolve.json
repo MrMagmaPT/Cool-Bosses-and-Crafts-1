@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "cdc1_discs",
+  "pattern": [
+    "CBA",
+    "BDB",
+    "ABC"
+  ],
+  "key": {
+    "A": "minecraft:slime_ball",
+    "B": "minecraft:polished_deepslate",
+    "D": "minecraft:music_disc_11",
+    "C": "minecraft:light_blue_dye"
+  },
+  "result": {
+    "id": "minecraft:music_disc_11",
+    "count": 1,
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:item_name": "{\"color\":\"gold\",\"text\":\"Music Disc\"}",
+      "minecraft:custom_model_data": {"floats": [5201]},
+      "minecraft:jukebox_playable": {
+        "song": "mrm.cbc1:the_unending_resolve",
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

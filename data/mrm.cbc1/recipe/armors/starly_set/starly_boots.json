@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:netherite_boots",
+  "addition": "minecraft:nether_star",
+  "result": {
+    "id": "minecraft:netherite_boots",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": {"floats": [5400]},
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "id": "max_health_boots",
+            "type": "minecraft:max_health",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "id": "armor_boots",
+            "type": "minecraft:armor",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "id": "armor_toughness_boots",
+            "type": "minecraft:armor_toughness",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "id": "knockback_res_boots",
+            "type": "minecraft:knockback_resistance",
+            "amount": 0.1,
+            "operation": "add_value",
+            "slot": "feet"
+          }
+        ],
+        "show_in_tooltip": true
+      },
+      "minecraft:item_name": "{\"color\":\"aqua\",\"text\":\"Starly Boots\"}",
+      "minecraft:equippable": {
+        "slot": "feet",
+        "equip_sound": "minecraft:item.armor.equip_chain",
+        "camera_overlay": "cbc1:entity/equipment/humanoid/starly"
+      }
+    }
+  }
+}

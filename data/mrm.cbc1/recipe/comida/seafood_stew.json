@@ -1,0 +1,61 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "cdc1_food",
+    "pattern": [
+      "DGD",
+      "FCS",
+      " B "
+    ],
+    "key": {
+      "D": "minecraft:dried_kelp",
+      "G": "minecraft:seagrass",
+      "F": "minecraft:cooked_cod",
+      "C": "minecraft:cooked_salmon",
+      "S": "minecraft:tropical_fish",
+      "B": "minecraft:bowl"
+    },
+    "result": 
+    {
+      "id": "minecraft:bowl",
+      "count": 1,
+      "components": {
+        "minecraft:max_stack_size": 1,
+        "minecraft:item_name": "{\"color\":\"light_purple\",\"text\":\"Seafood Stew\"}",
+        "minecraft:custom_model_data": {"floats": [5105]},
+        "minecraft:food": {
+          "nutrition": 5,
+          "saturation": 10,
+          "can_always_eat": false
+        },
+        "minecraft:consumable": {
+          "consume_seconds": 1,
+          "animation": "eat",
+          "sound": "minecraft:entity.generic.drink",
+          "has_consume_particles": true,
+          "on_consume_effects": [
+            {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:dolphins_grace",
+                "amplifier": 1,
+                "duration": 800,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": false
+              }
+              ],
+              "probability": 1
+            }
+          ]
+        },
+        "minecraft:use_remainder": {
+          "id": "minecraft:bowl",
+          "count": 1
+        }
+      }
+    }
+}
+
+  

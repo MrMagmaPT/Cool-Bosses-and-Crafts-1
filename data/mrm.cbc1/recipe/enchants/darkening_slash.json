@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "cbc1_enchants",
+    "pattern": [
+      "ABA",
+      "BEB",
+      "ABA"
+    ],
+    "key": {
+      "A": "minecraft:calibrated_sculk_sensor",
+      "B": "minecraft:echo_shard",
+      "E": "minecraft:writable_book"
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "mrm.cbc1:enchant_effects/darkening_slash": 1
+          },
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }
+  

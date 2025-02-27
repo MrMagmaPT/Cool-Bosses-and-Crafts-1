@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:netherite_helmet",
+  "addition": "minecraft:stripped_crimson_hyphae",
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": {"floats": [5402]},
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "id": "attack_damage_head",
+            "type": "minecraft:attack_damage",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "id": "armor_helmet",
+            "type": "minecraft:armor",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "id": "armor_toughness_helmet",
+            "type": "minecraft:armor_toughness",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "id": "knockback_res_helmet",
+            "type": "minecraft:knockback_resistance",
+            "amount": 0.1,
+            "operation": "add_value",
+            "slot": "head"
+          }
+        ],
+        "show_in_tooltip": true
+      },
+      "minecraft:item_name": "{\"color\":\"aqua\",\"text\":\"Crimson Helmet\"}"
+    }
+  }
+}

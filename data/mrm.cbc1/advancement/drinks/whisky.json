@@ -1,0 +1,44 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:bowl",
+        "components": {
+          "minecraft:custom_model_data": {"floats": [5108]}
+        }
+      },
+      "title": {
+        "text": "Whisky",
+        "color": "gold"
+      },
+      "description": {
+        "text": "Get Hozier's drink, WHISKY!",
+        "color": "#00ff00"
+      },
+      "background": "minecraft:textures/block/cauldron_side.png",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "mrm.cbc1:drinks/root",
+    "criteria": {
+      "got_disc_11": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:bowl"
+              ],
+              "components": {
+                "minecraft:custom_model_data": {"floats": [5108]}
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }
+  

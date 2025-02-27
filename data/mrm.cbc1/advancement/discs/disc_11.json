@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_11",
+      "components": {
+        "minecraft:custom_model_data": {"floats": [5210]}
+      }
+    },
+    "title": {
+      "text": "The End",
+      "color": "#ffffff"
+    },
+    "description": {
+      "text": "Get The End Music Disc!",
+      "color": "#00ff00"
+    },
+    "background": "minecraft:textures/block/note_block.png",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mrm.cbc1:discs/root",
+  "criteria": {
+    "got_disc_11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {"floats": [5210]}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}
