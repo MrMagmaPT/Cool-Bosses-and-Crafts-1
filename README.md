@@ -46,6 +46,12 @@ There are alot of older version that where created when i was not using Git nor 
 **version.old:** 
 [![Static Badge](https://img.shields.io/badge/Folder-Old%20Versions-brightgreen?style=flat&logo=files&logoColor=%234285F4&color=%234285F4)](./version.old/)
  
+
+#### Most Recent version: 
+   V.0.09 - Most recent Finished working version
+#### Version in the Works: 
+   V.0.10 - Version in the works, update from older version to most recent minecraft version.
+
 ---
 ## Info
 This DataPack is heavily inspired in **Vanila Tweaks** (specialy for the quality of life craftings) if you like some of them and want something like this but just some of the quality of life crafts go visit them
